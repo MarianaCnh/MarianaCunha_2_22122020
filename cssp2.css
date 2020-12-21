@@ -1,0 +1,29 @@
+@font-face
+{
+    font-family:  'Raleway';
+    src:url(Raleway-VariableFont_wght.ttf), url(Raleway-Italic-VariableFont_wght.ttf);
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Lienstete
+{
+    display:flex;
+    justify-content: flex-end;
+    font-size: small;
+}
+
+#lien1
+{
+    margin: 5px;
+}
+
+body
+{
+    background-color: white;
+    font-family: 'Raleway' , 'Courier New', Courier, monospace;
+}
