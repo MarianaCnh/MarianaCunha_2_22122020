@@ -17,9 +17,34 @@ header
     font-size: small;
 }
 
-#lien1
+
+a.lien1:link
 {
-    margin: 5px;
+    color: grey;
+    margin: 30px;
+    text-decoration: none;
+    height: 20px;
+    border-top: 5px #0065FC;
+}
+
+a:visited
+{
+    color: grey;
+}
+
+a:hover
+{
+    color: #0065FC;
+}
+
+#sinscrire
+{
+    color: #0065FC;
+}
+
+.fond
+{
+    background-color:#F2F2F2;
 }
 
 body
@@ -27,3 +52,31 @@ body
     background-color: white;
     font-family: 'Raleway' , 'Courier New', Courier, monospace;
 }
+
+#map
+{
+    background-color: #F2F2F2;
+}
+
+.bouton
+{
+    background-color: #0065FC;
+    color: white;
+}
+
+#recherch
+{
+    border: 2px solid #F2F2F2;
+    background-color: #F2F2F2;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    width: 20%;
+}
+
+::placeholder
+{
+    color: black;
+    font-weight: bold;
+}
+
+
