@@ -15,6 +15,7 @@ header
     display:flex;
     justify-content: flex-end;
     font-size: small;
+    
 }
 
 
@@ -64,7 +65,7 @@ body
     color: white;
 }
 
-#recherch
+#recherche
 {
     border: 2px solid #F2F2F2;
     background-color: #F2F2F2;
@@ -77,6 +78,18 @@ body
 {
     color: black;
     font-weight: bold;
+    font-family: 'Raleway';
+    opacity: 100;
+}
+
+ul
+{
+    list-style-type: none;   
+}
+
+li
+{
+    display: inline;
 }
 
 
