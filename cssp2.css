@@ -54,24 +54,42 @@ body
     font-family: 'Raleway' , 'Courier New', Courier, monospace;
 }
 
+.intro
+{
+    margin-left: 30px;
+}
+
 #map
 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    height: 10px;
+    width: 10px;
+    padding: 15px;
     background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px 0 0 10px;
+    margin-left: 30px;
+
 }
 
 .bouton
 {
     background-color: #0065FC;
     color: white;
+    padding: 6px;
+    width: 90px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    font-family: 'Raleway', 'Courier New' , 'Courier', monospace;
+    font-weight: bold;
+
 }
 
-#recherche
+.Recherche
 {
-    border: 2px solid #F2F2F2;
-    background-color: #F2F2F2;
-    border-radius: 10px 10px 10px 10px;
     display: flex;
-    width: 20%;
 }
 
 ::placeholder
@@ -82,12 +100,50 @@ body
     opacity: 100;
 }
 
+#Recherche::placeholder{
+    border-color: #F2F2F2;
+}
+
+
 ul
 {
     list-style-type: none;   
 }
 
 li
+{
+    display: inline;
+    padding: 30px;
+}
+
+i
+{
+    color: #0065FC;
+}
+
+.moneylien
+{
+    display: flex;
+    border-radius: 0 5px 5px 0;
+    text-decoration: none;
+    padding: 5px;
+    background-color: white;
+    font-family: 'Raleway';
+}
+
+#money
+{
+    background-color: #c7dcfc;
+    border-radius: 50%;
+    height: 0;
+    width: 5px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icones
 {
     display: inline;
 }
