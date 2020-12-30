@@ -19,13 +19,13 @@
             <a href="index.html"><img src="Projet2-Reservia/images/logo/Reservia@3x.png" alt="logo" width="97" height="45"></a>
             <nav class="Lienstete">
                 <ul>
-                    <li>
+                    <li class="iconetete">
                         <a class="lien1" href="#heberge" title="Les hébergements">Hébergements</a>
                     </li>
-                    <li>
+                    <li class="iconetete">
                         <a class="lien1" href="#activ" title="Les activités">Activités</a>
                     </li>
-                    <li>
+                    <li class="iconetete">
                         <a class="lien1" href="" id="sinscrire">S'inscrire</a>
                     </li>
                 </ul>
@@ -41,26 +41,28 @@
                 <i class="fas fa-map-marker-alt" id="map"></i>
                 <label for="Recherche"></label>
                 <input type="text" id="Recherche" name="Recherche" placeholder="Marseille,France" />
+                <label for="submit"></label>
                 <input type="submit" value="Rechercher" class="bouton"/>
             </div>
+            
         </nav>
             <!--section info-->
         <div>
             <ul class="icones">
-                <li>
-                    <h2>Filtres</h2>
-                </li>
-                <li class="money">
-                    <a class="moneylien" href=""><i class="fas fa-money-bill-wave" id="money"></i><strong>Économique</strong></a>
+                <li class="background">
+                    <p class="filtres">Filtres</p>
                 </li>
                 <li class="background">
-                    <i class="fas fa-child"></i><strong>Famille</strong>
+                    <button class="background"><i class="fas fa-money-bill-wave" id="money"></i>Économique</button>
                 </li>
                 <li class="background">
-                    <i class="fas fa-heart"></i><strong>Romantique</strong>
+                    <i class="fas fa-child" id="child"></i><a href=""><button>Famille</button></a>
                 </li>
                 <li class="background">
-                    <i class="fas fa-dog"></i><strong>Animaux</strong>
+                    <i class="fas fa-heart" id="heart"></i><a href=""><button>Romantique</button></a>
+                </li>
+                <li class="background">
+                    <i class="fas fa-dog" id="dog"></i><a href=""><button>Animaux</button></a>
                 </li>  
             </ul>
             <p>
@@ -136,9 +138,9 @@
         <!--section activité-->
 
         <h3 id="activ">Activités à Marseille</h3>
-        <article>
-            <img src="Projet2-Reservia/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port"><br>
-            <strong>Vieux port</strong>
+        <article class="nom1">
+            <a class="lienom1" href=#><img class="vieux" src="Projet2-Reservia/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port"><br>
+            <strong class="port">Vieux port</strong></a>
         </article>
         <article>
             <img src="Projet2-Reservia/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Port de pomègues"><br>

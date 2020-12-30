@@ -18,6 +18,11 @@ header
     
 }
 
+.iconetete
+{
+    display: inline;
+}
+
 
 a.lien1:link
 {
@@ -28,14 +33,16 @@ a.lien1:link
     border-top: 5px #0065FC;
 }
 
-a:visited
+a.lien1:visited
 {
     color: grey;
 }
 
-a:hover
+a.lien1:hover
 {
     color: #0065FC;
+    border-top: 1px solid #0065FC;
+    padding-top: 15px;
 }
 
 #sinscrire
@@ -46,7 +53,10 @@ a:hover
 .fond
 {
     background-color:#F2F2F2;
+    border-radius: 30px;
+
 }
+
 
 body
 {
@@ -64,7 +74,6 @@ body
     display: flex;
     justify-content: center;
     color: black;
-    height: 10px;
     width: 10px;
     padding: 15px;
     background-color: #F2F2F2;
@@ -78,7 +87,7 @@ body
 {
     background-color: #0065FC;
     color: white;
-    padding: 6px;
+    padding: 5px;
     width: 90px;
     border-radius: 0 10px 10px 0;
     border: none;
@@ -110,42 +119,107 @@ ul
     list-style-type: none;   
 }
 
-li
-{
-    display: inline;
-    padding: 30px;
-}
-
 i
 {
     color: #0065FC;
 }
 
-.moneylien
+.background
 {
-    display: flex;
-    border-radius: 0 5px 5px 0;
-    text-decoration: none;
-    padding: 5px;
-    background-color: white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
     font-family: 'Raleway';
+    background-color: white;
+    font-weight: bold;
 }
 
 #money
 {
     background-color: #c7dcfc;
     border-radius: 50%;
-    height: 0;
-    width: 5px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    padding: 10px;
+    display: inline;
+}
+
+#child
+{
+    background-color: #c7dcfc;
+    border-radius: 50%;
+    width: 200%;
+    padding: 10px;
+    display:inline;
+}
+
+#heart
+{
+    background-color: #c7dcfc;
+    border-radius: 50%;
+    width: 100%;
+    padding: 10px;
+    display:inline;
+}
+
+#dog
+{
+    background-color: #c7dcfc;
+    border-radius: 50%;
+    width: 100%;
+    padding: 10px;
+    display: inline;
+}
+
+#Filtres
+{
+    background-color: #c7dcfc;
+    border-radius: 50%;
+    width: 100%;
+    padding: 10px;
+    display:inline;
+    font-size: large;
 }
 
 .icones
 {
-    display: inline;
+    position: relative;
 }
+
+a
+{
+    text-decoration: none;
+}
+
+.vieux
+{
+    border-radius: 20px 20px 0 0;
+    width: 200px;
+    height: 300px;
+}
+
+.nom1
+{
+    background-color: white;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 10px;
+    color: black;
+    width: 200px;
+    padding-bottom: 20px;
+    box-shadow: 20px 20px 20px #F2F2F2;
+}
+
+.port
+{
+    text-decoration: none;
+    margin-left: 10px;
+    display: flex;
+    justify-content: left;
+    font-size: small;
+}
+
+
+
+
 
 
