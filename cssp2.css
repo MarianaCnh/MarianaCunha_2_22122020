@@ -26,7 +26,7 @@ header
 
 a.lien1:link
 {
-    color: grey;
+    color:#0065FC;
     margin: 30px;
     text-decoration: none;
     height: 20px;
@@ -35,10 +35,55 @@ a.lien1:link
 
 a.lien1:visited
 {
-    color: grey;
+    color:#0065FC;
+    border-top: 30px #0065FC;
 }
 
 a.lien1:hover
+{
+    color: #0065FC;
+    border-top: 1px solid #0065FC;
+    padding-top: 20px;
+}
+
+a.lien2:link
+{
+    color:grey;
+    margin: 30px;
+    text-decoration: none;
+    height: 20px;
+    border-top: 30px #0065FC;
+}
+
+a.lien2:visited
+{
+    color:#0065FC;
+    border-top: 30px #0065FC;
+}
+
+a.lien2:hover
+{
+    color: #0065FC;
+    border-top: 1px solid #0065FC;
+    padding-top: 20px;
+}
+
+a.lien3:link
+{
+    color:grey;
+    margin: 30px;
+    text-decoration: none;
+    height: 20px;
+    border-top: 30px #0065FC;
+}
+
+a.lien3:visited
+{
+    color:#0065FC;
+    border-top: 30px #0065FC;
+}
+
+a.lien3:hover
 {
     color: #0065FC;
     border-top: 1px solid #0065FC;
@@ -182,14 +227,26 @@ a
     text-decoration: none;
 }
 
+.zoom .activites img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom .activiteS:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
 .fond
 {
     background-color:#F2F2F2;
     border-radius: 30px;
     display: grid;
-    grid-template-columns: 20% 20% 20%;
+    grid-template-columns: 30% 30% 30%;
     grid-template-rows: 20% 20%;
-    grid-column-gap: 100px;
+    grid-column-gap: 20px;
     padding-left: 60px;
     width: 55%
 
@@ -368,12 +425,10 @@ a
 {
     background-color:#F2F2F2;
     border-radius: 30px;
+    height: 700px;
     display: grid;
-    grid-template-columns: 20% ;
-    grid-template-rows: 20% 20%;
-    grid-column-gap: 100px;
-    padding-left: 60px;
-    width: 55%
+    grid-column-gap: 10px;
+    float:right;
 }
 
 
@@ -404,6 +459,7 @@ a
     left:150px;
     background-color: white;
     text-align: justify;
+    float: right;
 }
 
 
@@ -433,6 +489,7 @@ a
     bottom:37px;
     background-color: white;
     text-align: justify;
+    float: right;
 }
 
 .hotelbleu
@@ -462,8 +519,8 @@ a
     right:37px;
     background-color: white;
     text-align: justify;
+    float: right;
 }
-
 
 
 
@@ -499,6 +556,7 @@ a
     width: 200px;
     padding-bottom: 20px;
     box-shadow: 20px 20px 20px #F2F2F2;
+    grid-column-start: 1;
 }
 
 .port
@@ -512,6 +570,37 @@ a
 
 
 
+
+
+
+
+.national
+{
+    border-radius: 20px 20px 0 0;
+    width: 200px;
+    height: 300px;
+}
+
+.activite4
+{
+    background-color: white;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 10px;
+    color: black;
+    width: 200px;
+    padding-bottom: 20px;
+    box-shadow: 20px 20px 20px #F2F2F2;
+}
+
+.calanques
+{
+    text-decoration: none;
+    margin-left: 10px;
+    display: flex;
+    justify-content: left;
+    font-size: small;
+}
 
 
 
