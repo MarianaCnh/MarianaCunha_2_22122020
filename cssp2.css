@@ -1,7 +1,7 @@
 @font-face
 {
     font-family:  'Raleway';
-    src:url(Raleway-VariableFont_wght.ttf), url(Raleway-Italic-VariableFont_wght.ttf);
+    src:url(font/Raleway-VariableFont_wght.ttf), url(font/Raleway-Italic-VariableFont_wght.ttf);
 }
 
 header
