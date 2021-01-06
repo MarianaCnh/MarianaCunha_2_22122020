@@ -1,6 +1,4 @@
 * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
- */
 
 button,
 select { /* 1 */
@@ -347,8 +345,9 @@ i
 {
     background-color: #c7dcfc;
     border-radius: 50%;
-    padding: 10px;
+    padding: 20px;
     display: inline;
+    margin-left: -10px;
 }
 
 #child
@@ -582,22 +581,35 @@ a
 .hotel128
 {
     border: 6px solid white;
-    border-radius: 20px 0 0 20px;
+    border-radius: 20px 20px 20px 20px;
     background-color: white;
     font-size: 11px;
-    width: 200px;
-    height: 180px;
+    width: 300px;
+    height: 130px;
     box-shadow: 10px 10px 10px rgb(207, 207, 207);
-    grid-column-start:1;
-    
-    
+    grid-column-start:1; 
+}
+
+.petitblock
+{
+    display: grid;
+    grid-template-columns: 60% 30%;
+    grid-template-rows: 50% 20%;
 }
 
 .matin
 {
-    border-radius: 20px 20px 0 0;
-    width: 200px;
-    height: 150px;
+    border-radius: 20px 0 0 20px;
+    width: 130px;
+    height: 130px;
+}
+
+.texte2
+{
+    position: relative;
+    right:37px;
+    background-color: white;
+    text-align: justify;
 }
 
 
