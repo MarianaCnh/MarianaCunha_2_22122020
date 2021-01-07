@@ -333,7 +333,7 @@ i
 .background
 {
     display: inline-block;
-    padding: 1em;
+    padding: 10px;
     border-radius: 15px;
     color: black;
     font-family: 'Raleway';
@@ -341,40 +341,19 @@ i
     font-weight: bold;
 }
 
-#money
+.lisectioninfo
 {
-    background-color: #c7dcfc;
-    border-radius: 50%;
-    padding: 20px;
     display: inline;
-    margin-left: -10px;
+    padding: 10px;
 }
 
-#child
+#iconawesome
 {
     background-color: #c7dcfc;
     border-radius: 50%;
-    width: 200%;
-    padding: 10px;
-    display:inline;
-}
-
-#heart
-{
-    background-color: #c7dcfc;
-    border-radius: 50%;
-    width: 100%;
-    padding: 10px;
-    display:inline;
-}
-
-#dog
-{
-    background-color: #c7dcfc;
-    border-radius: 50%;
-    width: 100%;
-    padding: 10px;
+    padding: 13px;
     display: inline;
+    margin-left: -20px;
 }
 
 #Filtres
@@ -401,12 +380,8 @@ a
 {
     display: grid;
     grid-template-columns: 60% 30%;
-    grid-template-rows: 50% 20%;
     grid-column-gap: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
-
-
+    margin: auto;
 }
 
 .zoom .activites img {
@@ -428,7 +403,6 @@ a
     display: grid;
     grid-template-columns: 30% 30% 30%;
     grid-column-gap: 30px;
-    margin: 10px;
     padding:10px
 
 }
@@ -444,6 +418,7 @@ a
     box-shadow: 10px 10px 10px rgb(207, 207, 207);
     margin: 10px;
     grid-column-start: 1;
+    
 }
 
 .cannebiere
