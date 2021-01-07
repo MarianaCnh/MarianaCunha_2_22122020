@@ -302,6 +302,11 @@ body
 
 }
 
+#Recherche
+{
+    border: 2px solid #F2F2F2;
+}
+
 .Recherche
 {
     display: flex;
@@ -316,7 +321,7 @@ body
 }
 
 #Recherche::placeholder{
-    border-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
 }
 
 
@@ -330,10 +335,22 @@ i
     color: #0065FC;
 }
 
+.filtres1
+{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
+    font-family: 'Raleway';
+    background-color: white;
+    font-weight: bold;
+}
+
 .background
 {
     display: inline-block;
     padding: 10px;
+    border: 2px solid #F2F2F2;
     border-radius: 15px;
     color: black;
     font-family: 'Raleway';
