@@ -165,7 +165,7 @@ template {
   display: none;
 }
 
-
+/*Header */
 
 @font-face
 {
@@ -191,7 +191,6 @@ header
 {
     display: inline;
 }
-
 
 a.lien1:link
 {
@@ -263,6 +262,8 @@ a.lien3:hover
 {
     color: #0065FC;
 }
+
+/* section recherche et info*/
 
 body
 {
@@ -348,7 +349,6 @@ i
 
 .background
 {
-    display: inline-block;
     padding: 10px;
     border: 2px solid #F2F2F2;
     border-radius: 15px;
@@ -382,36 +382,39 @@ i
     display:inline;
     font-size: large;
 }
-
-.icones
-{
-    position: relative;
-}
-
 a
 {
     text-decoration: none;
+    color: black;
 }
+
+#iconeinfo1
+{
+    color: #0065FC;
+    border: 2px solid #F2F2F2;
+    border-radius: 50%;
+    font-size: x-small;
+    padding: 6px;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.nombrelogement
+{
+    display: inline-block;
+    padding: 3px;
+    font-size: small;
+}
+
+/* section hébergement */
 
 .grosblock
 {
     display: grid;
     grid-template-columns: 60% 30%;
     grid-column-gap: 30px;
-    margin: auto;
 }
-
-.zoom .activites img {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.zoom .activiteS:hover img {
-	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
-}
-
 
 .fond
 {
@@ -557,7 +560,7 @@ a
     color: rgb(155, 155, 155);
 }
 
-
+/* section popularité */
 
 .fond2
 {
@@ -565,7 +568,8 @@ a
     border-radius: 30px;
     display: grid;
     grid-column-gap: 10px;
-    justify-content: center;
+    justify-content: justify;
+    margin-left: 20px;
     
 }
 
@@ -647,6 +651,7 @@ a
     height: 150px;
 }
 
+/* SECTION ACTIVITES */
 
 .activites
 {
@@ -655,6 +660,8 @@ a
     grid-template-rows: 50px;
     grid-column-gap: 30px;
     justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 .vieux
 {
@@ -735,8 +742,6 @@ a
 
 }
 
-
-
 .calanques
 {
     text-decoration: none;
@@ -746,6 +751,25 @@ a
     font-size: small;
 }
 
+/* FOOTER */
+
+.fond3
+{
+    background-color: #F2F2F2;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+}
+
+.titre
+{
+    font-weight: bold;
+    padding: 10px;
+}
+
+.espacement
+{
+    padding: 5px;
+}
 @media all and (max-width: 1024px)
 {
     body
