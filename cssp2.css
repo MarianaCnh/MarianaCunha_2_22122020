@@ -173,94 +173,61 @@ template {
     src:url(font/Raleway-VariableFont_wght.ttf), url(font/Raleway-Italic-VariableFont_wght.ttf);
 }
 
+.marge
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
 header
 {
     display: flex;
     justify-content: space-between;
 }
 
+.logo
+{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
 .Lienstete
 {
     display:flex;
     justify-content: flex-end;
-    font-size: small;
-    
+    font-size:small;
+    padding-top: 20px;
 }
 
 .iconetete
 {
     display: inline;
+    justify-content: space-between;
 }
 
-a.lien1:link
+.lien1
 {
-    color:#0065FC;
-    margin: 30px;
-    text-decoration: none;
-    height: 20px;
-    border-top: 30px #0065FC;
-}
-
-a.lien1:visited
-{
-    color:#0065FC;
-    border-top: 30px #0065FC;
-}
-
-a.lien1:hover
-{
+    border-top: 2px solid #0065FC;
     color: #0065FC;
-    border-top: 1px solid #0065FC;
-    padding-top: 20px;
+    padding: 31px;
+
 }
 
-a.lien2:link
+.lien2
 {
-    color:grey;
-    margin: 30px;
-    text-decoration: none;
-    height: 20px;
-    border-top: 30px #0065FC;
-}
-
-a.lien2:visited
-{
-    color: grey;
-    border-top: 30px #0065FC;
+    padding: 30px;
 }
 
 a.lien2:hover
 {
     color: #0065FC;
-    border-top: 1px solid #0065FC;
     padding-top: 20px;
 }
 
-a.lien3:link
+.lien3
 {
-    color:grey;
-    margin: 30px;
-    text-decoration: none;
-    height: 20px;
-    border-top: 30px #0065FC;
-}
-
-a.lien3:visited
-{
-    color:#0065FC;
-    border-top: 30px #0065FC;
-}
-
-a.lien3:hover
-{
+    font-weight: bold;
     color: #0065FC;
-    border-top: 1px solid #0065FC;
-    padding-top: 20px;
-}
-
-#sinscrire
-{
-    color: #0065FC;
+    padding: 30px;
 }
 
 /* section recherche et info*/
@@ -278,24 +245,19 @@ body
 
 #map
 {
-    display: flex;
-    justify-content: center;
     color: black;
-    width: 10px;
-    padding: 15px;
+    padding: 13px;
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 10px 0 0 10px;
     margin-left: 30px;
-
+    font-size: smaller;
 }
 
 .bouton
 {
     background-color: #0065FC;
     color: white;
-    padding: 5px;
-    width: 90px;
     border-radius: 0 10px 10px 0;
     border: none;
     font-family: 'Raleway', 'Courier New' , 'Courier', monospace;
@@ -331,11 +293,6 @@ ul
     list-style-type: none;   
 }
 
-i
-{
-    color: #0065FC;
-}
-
 .filtres1
 {
     display: inline-block;
@@ -366,6 +323,7 @@ i
 
 #iconawesome
 {
+    color: #0065FC;
     background-color: #c7dcfc;
     border-radius: 50%;
     padding: 13px;
@@ -409,6 +367,11 @@ a
 
 /* section hébergement */
 
+.couleuretoile
+{
+    color: rgb(167, 162, 162);
+}
+
 .grosblock
 {
     display: grid;
@@ -423,7 +386,8 @@ a
     display: grid;
     grid-template-columns: 30% 30% 30%;
     grid-column-gap: 30px;
-    padding:10px
+    padding: 30px;
+    justify-content: space-around;
 
 }
 
@@ -436,7 +400,7 @@ a
     width: 200px;
     height: 180px;
     box-shadow: 10px 10px 10px rgb(207, 207, 207);
-    margin: 10px;
+    margin: 30px;
     grid-column-start: 1;
     
 }
@@ -465,7 +429,7 @@ a
     width: 200px;
     height: 180px;
     box-shadow: 10px 10px 10px rgb(207, 207, 207);
-    margin: 10px;
+    margin: 30px;
 }
 
 .porthotel
@@ -474,86 +438,6 @@ a
     width: 200px;
     height: 150px;
 }
-
-.hotel76
-{
-    border: 6px solid white;
-    border-radius: 20px 20px 20px 20px;
-    background-color: white;
-    font-size: smaller;
-    width: 200px;
-    height: 180px;
-    box-shadow: 10px 10px 10px rgb(207, 207, 207);
-    margin: 10px;
-}
-
-.mouettes
-{
-    border-radius: 20px 20px 0 0;
-    width: 200px;
-    height: 150px;
-}
-
-
-.hotel46
-{
-    border: 6px solid white;
-    border-radius: 20px 20px 20px 20px;
-    background-color: white;
-    font-size: smaller;
-    width: 200px;
-    height: 180px;
-    box-shadow: 10px 10px 10px rgb(207, 207, 207);
-    margin: 10px;
-}
-
-.mer
-{
-    border-radius: 20px 20px 0 0;
-    width: 200px;
-    height: 150px;
-}
-
-
-.auberge23
-{
-    border: 6px solid white;
-    border-radius: 20px 20px 20px 20px;
-    background-color: white;
-    font-size: smaller;
-    width: 200px;
-    height: 180px;
-    box-shadow: 10px 10px 10px rgb(207, 207, 207);
-    margin: 10px;
-}
-
-.panier
-{
-    border-radius: 20px 20px 0 0;
-    width: 200px;
-    height: 150px;
-}
-
-.hotel96
-{
-    border: 6px solid white;
-    border-radius: 20px 20px 20px 20px;
-    background-color: white;
-    font-size: 11px;
-    width: 200px;
-    height: 180px;
-    box-shadow: 10px 10px 10px rgb(207, 207, 207);
-    margin: 10px;
-    
-}
-
-.amina
-{
-    border-radius: 20px 20px 0 0;
-    width: 200px;
-    height: 150px;
-}
-
 
 .far 
 {
@@ -653,21 +537,20 @@ a
 
 /* SECTION ACTIVITES */
 
+.titreactivite
+{
+    display: flex;
+    justify-content: left;
+    padding: 30px;
+}
+
 .activites
 {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
-    grid-template-rows: 50px;
-    grid-column-gap: 30px;
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
-.vieux
-{
-    border-radius: 20px 20px 0 0;
-    width: 200px;
-    height: 300px;
+    grid-template-columns: 15% 20% 15% 20%;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .activite1
@@ -675,23 +558,85 @@ a
     background-color: white;
     border: 1px solid #F2F2F2;
     border-radius: 20px 20px 20px 20px;
-    margin-left: 10px;
     color: black;
-    width: 200px;
-    height: 320px;
-    padding-bottom: 20px;
+    width: 250px;
+    height: 380px;
     box-shadow: 20px 20px 20px #F2F2F2;
     grid-column-start: 1;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
 
 }
 
-.port
+.activite2
+{
+    background-color: white;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    color: black;
+    width: 250px;
+    height: 380px;
+    box-shadow: 20px 20px 20px #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.imagegrandecarte
+{
+    border-radius: 20px;
+    width: 260px;
+    height: 380px;
+    object-fit: cover;
+}
+
+.nomgrandecarte
 {
     text-decoration: none;
-    margin-left: 10px;
+    position: relative;
+    bottom:50px;
     display: flex;
-    justify-content: left;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
     font-size: small;
+}
+
+.range1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.range2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.petitecarte1
+{
+    background-color: white;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    color: black;
+    width: 300px;
+    height: 200px;
+    box-shadow: 20px 20px 20px #F2F2F2;
+}
+
+.petitecarte2
+{
+    background-color: white;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    color: black;
+    width: 300px;
+    height: 140px;
+    box-shadow: 20px 20px 20px #F2F2F2;
 }
 
 .petitecarte
@@ -700,55 +645,69 @@ a
     border: 1px solid #F2F2F2;
     border-radius: 20px 20px 20px 20px;
     color: black;
-    width: 200px;
+    width: 300px;
+    height: 180px;
     box-shadow: 20px 20px 20px #F2F2F2;
-    margin: 5px;
+}
+
+.imagepetitecarte1
+{
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.imagepetitecarte2
+{
+    border-radius: 20px;
+    width: 300px;
+    height: 100px;
+    object-fit: cover;
 }
 
 .imagepetitecarte
 {
-    border-radius: 20px 20px 0 0;
-    width: 200px;
-    height: 120px;
+    border-radius: 20px;
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.nompetitecarte1
+{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    bottom:70px;
+    display: flex;
+    text-align: justify;
+    padding: 20px;
+}
+
+.nompetitecarte2
+{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    bottom:40px;
+    display: flex;
+    text-align: justify;
+    padding: 20px;
 }
 
 .nompetitecarte
 {
     text-decoration: none;
-    margin-left: 10px;
-    display: flex;
-    justify-content: left;
-    font-size: small;
-}
-
-.national
-{
-    border-radius: 20px 20px 0 0;
-    width: 200px;
-    height: 300px;
-}
-
-.activite2
-{
     background-color: white;
-    border: 1px solid #F2F2F2;
-    border-radius: 20px 20px 20px 20px;
-    margin-left: 10px;
-    color: black;
-    width: 200px;
-    height: 320px;
-    padding-bottom: 20px;
-    box-shadow: 20px 20px 20px #F2F2F2;
-
-}
-
-.calanques
-{
-    text-decoration: none;
-    margin-left: 10px;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    bottom:50px;
     display: flex;
-    justify-content: left;
-    font-size: small;
+    text-align: justify;
+    padding: 20px;
 }
 
 /* FOOTER */
