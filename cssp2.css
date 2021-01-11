@@ -375,7 +375,7 @@ a
 .grosblock
 {
     display: grid;
-    grid-template-columns: 60% 30%;
+    grid-template-columns: 70% 25%;
     grid-column-gap: 30px;
 }
 
@@ -387,8 +387,6 @@ a
     grid-template-columns: 30% 30% 30%;
     grid-column-gap: 30px;
     padding: 30px;
-    justify-content: space-around;
-
 }
 
 .auberge25
@@ -451,10 +449,8 @@ a
     background-color:#F2F2F2;
     border-radius: 30px;
     display: grid;
-    grid-column-gap: 10px;
-    justify-content: justify;
-    margin-left: 20px;
-    
+    padding: 30px;
+    justify-content: center;
 }
 
 
@@ -464,75 +460,62 @@ a
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     font-size: 11px;
-    width: 300px;
+    width: 360px;
     height: 130px;
     box-shadow: 10px 10px 10px rgb(207, 207, 207);
-    grid-column-start:1; 
+    grid-column-start:1;
+    margin: 10px;
 }
 
 .petitblock
 {
-    display: grid;
-    grid-template-columns: 60% 30%;
-    grid-template-rows: 50% 20%;
+    display:inline-flex;
+}
+
+.titrepopularite
+{
+    position: relative;
+    left: 160px;
+}
+
+.blocktexte
+{
+    flex-direction: column;
+    margin-left: 10px;
+    padding: 5px;
 }
 
 .matin
 {
     border-radius: 20px 0 0 20px;
-    width: 130px;
+    width: 140px;
     height: 130px;
+    object-fit: cover;
 }
 
-.texte2
+.autreimage
 {
-    position: relative;
-    right:37px;
-    background-color: white;
-    text-align: justify;
+    border-radius: 20px 0 0 20px;
+    width: 140px;
+    height: 130px;
+    object-fit: cover;
 }
 
-
-.coeur71
+.prix
 {
-    border: 6px solid white;
-    border-radius: 20px 20px 20px 20px;
-    background-color: white;
-    width: 400px;
-    height: 135px;
-    box-shadow: 10px 10px 10px rgb(207, 207, 207);
-    margin: 10px;
-    text-align: justify;
-    font-size: 11px;
+    font-size: small;
+    margin-top: -10px;
 }
 
-.chambre
-{
-    border-radius: 20px 20px 0 0;
-    width: 200px;
-    height: 150px;
-}
+#gris
+ {
+     color: rgb(202, 199, 199);
+ }
 
-
-.hotelbleu
+.iconepopularite
 {
-    border: 6px solid white;
-    border-radius: 20px 20px 20px 20px;
-    background-color: white;
-    width: 400px;
-    height: 135px;
-    box-shadow: 10px 10px 10px rgb(207, 207, 207);
-    margin: 10px;
-    grid-column-start: 1;
-    text-align: justify;
-    font-size: 11px;
-}
+    color: #0065FC;
 
-.blanc
-{
-    border-radius: 20px 20px 0 0;
-    width: 200px;
-    height: 150px;
 }
 
 /* SECTION ACTIVITES */
