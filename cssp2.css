@@ -375,7 +375,7 @@ a
 .grosblock
 {
     display: grid;
-    grid-template-columns: 70% 25%;
+    grid-template-columns: 70% 23%;
     grid-column-gap: 30px;
 }
 
@@ -386,7 +386,8 @@ a
     display: grid;
     grid-template-columns: 30% 30% 30%;
     grid-column-gap: 30px;
-    padding: 30px;
+    padding: 50px;
+    margin: auto;
 }
 
 .auberge25
@@ -395,25 +396,45 @@ a
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     font-size: smaller;
-    width: 200px;
-    height: 180px;
+    width: 270px;
+    height: 230px;
     box-shadow: 10px 10px 10px rgb(207, 207, 207);
     margin: 30px;
     grid-column-start: 1;
     
 }
 
-.cannebiere
+.imghebergement
 {
     border-radius: 20px 20px 0 0;
-    width: 200px;
+    width: 270px;
     height: 150px;
+}
+
+.textegrandecarte
+{
+    position:relative;
+    bottom: 12px;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.prixgrandecarte
+{
+    position: relative;
+    bottom: 10px;
+}
+
+.iconegrandecarte
+{
+    color: #0065FC;
+    position: relative;
+    bottom: 15px;
 }
 
 .texte1
 {
-    position: relative;
-    bottom:37px;
+
     background-color: white;
     text-align: justify;
 }
@@ -424,17 +445,18 @@ a
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     font-size: smaller;
-    width: 200px;
-    height: 180px;
+    width: 270px;
+    height: 230px;
     box-shadow: 10px 10px 10px rgb(207, 207, 207);
     margin: 30px;
 }
 
-.porthotel
+.imghebergement2
 {
     border-radius: 20px 20px 0 0;
-    width: 200px;
+    width: 270px;
     height: 150px;
+    object-fit: cover;
 }
 
 .far 
@@ -460,7 +482,7 @@ a
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     font-size: 11px;
-    width: 360px;
+    width: 300px;
     height: 130px;
     box-shadow: 10px 10px 10px rgb(207, 207, 207);
     grid-column-start:1;
@@ -475,14 +497,12 @@ a
 .titrepopularite
 {
     position: relative;
-    left: 160px;
+    left: 130px;
 }
 
 .blocktexte
 {
-    flex-direction: column;
     margin-left: 10px;
-    padding: 5px;
 }
 
 .matin
@@ -503,7 +523,7 @@ a
 
 .prix
 {
-    font-size: small;
+    font-size: 12px;
     margin-top: -10px;
 }
 
@@ -515,7 +535,8 @@ a
 .iconepopularite
 {
     color: #0065FC;
-
+    position: relative;
+    top: 20px;
 }
 
 /* SECTION ACTIVITES */
