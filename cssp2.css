@@ -178,11 +178,13 @@ template {
     margin-left: 50px;
     margin-right: 50px;
 }
+
 header
 {
     display: flex;
     justify-content: space-between;
 }
+
 
 .logo
 {
@@ -190,38 +192,40 @@ header
     justify-content: flex-start;
     padding-top: 20px;
 }
-.Lienstete
+
+.responsivetete
 {
-    display:flex;
-    align-items: flex-end;
-    font-size:small;
+    display: flex;
+    padding: 29px;
+    margin-top: 0px;
+    font-size: small;
 }
 
-.iconetete
+.uldesliens
 {
-    display: inline;
+    display: flex;
+    justify-content: end;
 }
 
 .lien1
 {
     border-top: 2px solid #0065FC;
     color: #0065FC;
-    padding: 39px;
+    padding: 40px;
+    
 
 }
 
 .lien2
 {
-    padding: 30px;
+    padding: 50px;
 }
 
 .lien3
 {
+    padding: 15px;
     font-weight: bold;
     color: #0065FC;
-    padding: 30px;
-    position: relative;
-    top: -12px;
 }
 
 /* section recherche et info*/
@@ -230,6 +234,7 @@ body
 {
     background-color: white;
     font-family: 'Raleway' , 'Courier New', Courier, monospace;
+    margin: 0px;
 }
 
 .intro
@@ -264,12 +269,12 @@ body
     display: none;
 }
 
-#Recherche
+.recherche1
 {
     border: 2px solid #F2F2F2;
 }
 
-.Recherche
+.recherche
 {
     display: flex;
 }
@@ -727,7 +732,7 @@ a
 
 /* RESPONSIVE */
 
-@media all and (max-width: 900px)
+@media all and (max-width: 1040px)
 {
     body 
     {
@@ -740,13 +745,24 @@ a
         flex-direction: column;
     }
 
-    #responsivetete
+    .headerresponsive
     {
-        display: flex;
-        align-items: flex-start;
-        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 100%;
+        grid-auto-flow: column;
     }
 
+    .logo
+    {
+        padding-top: 0px;
+        grid-column-start: 1;
+    }
+
+    .responsivetete
+    {
+        padding: 0px;
+    }
     ul
     {
         padding-left: 0;
@@ -763,17 +779,11 @@ a
         border-bottom: 2px solid #F2F2F2;
         text-decoration: none;
     }
-
-    .lien1, .lien2
-    {
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
-
     .lien3
     {
-        position: relative;
-        bottom:50px;
+        padding-top: 0px;
+        margin: 0px;
+        grid-column: 1 / 2;
     }
     
     .marge
@@ -814,10 +824,9 @@ a
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     font-size: smaller;
-    width: 340px;
+    width: 300px;
     height: 200px;
     box-shadow: 10px 10px 10px 10px rgb(207, 207, 207);
-    grid-column-start: 1;
     margin: 10px;
     margin-left: 20px;
     
@@ -826,21 +835,21 @@ a
 .hotel52
 {
     box-shadow: 10px 10px 10px 10px rgb(207, 207, 207);
-    width: 340px;
+    width: 300px;
     height: 200px;
 
 }
 
 .imghebergement2
 {
-    width: 340px;
+    width: 300px;
     height: 150px;
     object-fit: cover;
 }
 
 .imghebergement
 {
-    width: 340px;
+    width: 300px;
     height: 150px;
     object-fit: cover;
 }
@@ -856,12 +865,57 @@ a
     {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .fond3
     {
         display: flex;
         flex-direction: column;
+    }
+
+    .activite1
+    {
+        width: 300px;
+        height: 200px;
+    }
+
+    .activite2
+    {
+        width: 300px;
+        height: 200px;
+    }
+
+    .petitecarte1
+    {
+        width: 300px;
+        height: 200px;
+    }
+
+    .petitecarte2
+    {
+        width: 300px;
+        height: 200px;
+    }
+
+    .petitecarte
+    {
+        width: 300px;
+        height: 200px;
+    }
+
+    .imagegrandecarte
+    {
+        object-fit: cover;
+        width: 300px;
+        height: 200px;
+    }
+
+    .imagepetitecarte2
+    {
+        object-fit: cover;
+        width: 300px;
+        height: 200px;
     }
 
     .filtreresponsive
