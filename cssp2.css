@@ -348,6 +348,7 @@ a
 {
     text-decoration: none;
     color: black;
+    margin: 0px;
 }
 
 #iconeinfo1
@@ -371,6 +372,17 @@ a
 
 /* section hébergement */
 
+.gras
+{
+    font-weight: bold;
+}
+
+.tailletexte
+{
+    font-size: smaller;
+    margin: 5px;
+}
+
 .grosblock
 {
     display: grid;
@@ -385,7 +397,8 @@ a
     display: grid;
     grid-template-columns: 30% 30% 30%;
     grid-column-gap: 30px;
-    padding: 50px;
+    padding: 30px;
+    justify-content: space-around;
 }
 
 .auberge25
@@ -394,49 +407,47 @@ a
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     font-size: smaller;
+    
     width: 230px;
-    height: 200px;
+    height: 180px;
     box-shadow: 10px 10px 10px rgb(207, 207, 207);
     grid-column-start: 1;
-    margin: 10px;
-    margin-left: 20px;
-    
+    margin:auto;
+}
+
+.nomhotelhebergement
+{
+    margin: 0%;
 }
 
 .imghebergement
 {
     border-radius: 20px 20px 0 0;
     width: 230px;
-    height: 150px;
+    height: 120px;
+    object-fit: cover;
+    margin: 0px;
 }
 
 .textegrandecarte
 {
-    position:relative;
-    bottom: 40px;
-    text-align: justify;
     background-color: white;
     border-radius: 0 0 20px 20px;
-}
-
-.prixgrandecarte
-{
-    position: relative;
-    bottom: 10px;
+    margin: 0px;
+    margin-left: 5px;
 }
 
 .iconegrandecarte
 {
     color: #0065FC;
-    position: relative;
-    bottom: 15px;
+    margin: 0%;
 }
 
 .texte1
 {
-
     background-color: white;
     text-align: justify;
+    margin: 0px;
 }
 
 .hotel52
@@ -446,9 +457,8 @@ a
     background-color: white;
     font-size: smaller;
     width: 230px;
-    height: 200px;
-    margin: 10px;
-    margin-left: 20px;
+    height: 180px;
+    margin:auto;
     box-shadow: 10px 10px 10px rgb(207, 207, 207);
 }
 
@@ -456,7 +466,7 @@ a
 {
     border-radius: 20px 20px 0 0;
     width: 230px;
-    height: 150px;
+    height: 120px;
     object-fit: cover;
 }
 
@@ -523,7 +533,7 @@ a
     margin-top: -10px;
 }
 
-#gris
+.gris
  {
      color: rgb(202, 199, 199);
  }
@@ -717,6 +727,7 @@ a
     background-color: #F2F2F2;
     display: grid;
     grid-template-columns: 20% 20% 20%;
+    margin:0px;
 }
 
 .titre
