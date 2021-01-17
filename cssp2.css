@@ -370,6 +370,11 @@ a
     font-size: small;
 }
 
+.searchicon
+{
+    display: none;
+}
+
 /* section hébergement */
 
 .gras
@@ -407,7 +412,6 @@ a
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     font-size: smaller;
-    
     width: 230px;
     height: 180px;
     box-shadow: 10px 10px 10px rgb(207, 207, 207);
@@ -570,7 +574,7 @@ a
     border-radius: 20px 20px 20px 20px;
     color: black;
     width: 250px;
-    height: 380px;
+    height: 400px;
     box-shadow: 20px 20px 20px #F2F2F2;
     grid-column-start: 1;
     display: flex;
@@ -586,38 +590,34 @@ a
     border-radius: 20px 20px 20px 20px;
     color: black;
     width: 250px;
-    height: 380px;
+    height: 400px;
     box-shadow: 20px 20px 20px #F2F2F2;
-    display: flex;
-    justify-content: space-around;
-    overflow: hidden;
 }
 
 .imagegrandecarte
 {
-    border-radius: 20px;
-    width: 260px;
-    height: 380px;
+    border-radius: 20px 20px 0 0;
+    width: 250px;
+    height: 350px;
     object-fit: cover;
 }
 
 .nomgrandecarte
 {
     text-decoration: none;
-    position: relative;
-    bottom:50px;
     display: flex;
-    padding: 20px;
-    background-color: white;
+    padding-top: 10px;
+    margin-left: 20px;
     border-radius: 0 0 20px 20px;
-    font-size: small;
 }
 
-.range1
+.nomgrandecarte2
 {
+    text-decoration: none;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    margin-left: 0px;
+    border-radius: 0 0 20px 20px;
 }
 
 .range2
@@ -629,13 +629,12 @@ a
 
 .petitecarte1
 {
-    background-color: white;
-    border: 1px solid #F2F2F2;
+    box-shadow: 20px 20px 20px #F2F2F2;
     border-radius: 20px 20px 20px 20px;
     color: black;
     width: 300px;
     height: 200px;
-    box-shadow: 20px 20px 20px #F2F2F2;
+    margin-bottom: 50px;
 }
 
 .petitecarte2
@@ -645,32 +644,32 @@ a
     border-radius: 20px 20px 20px 20px;
     color: black;
     width: 300px;
-    height: 140px;
+    height: 150px;
     box-shadow: 20px 20px 20px #F2F2F2;
 }
 
 .petitecarte
 {
-    background-color: white;
     border: 1px solid #F2F2F2;
     border-radius: 20px 20px 20px 20px;
     color: black;
     width: 300px;
     height: 180px;
     box-shadow: 20px 20px 20px #F2F2F2;
+    margin-bottom: 50px;
 }
 
 .imagepetitecarte1
 {
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
     width: 300px;
-    height: 200px;
+    height: 150px;
     object-fit: cover;
 }
 
 .imagepetitecarte2
 {
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
     width: 300px;
     height: 100px;
     object-fit: cover;
@@ -678,46 +677,37 @@ a
 
 .imagepetitecarte
 {
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
     width: 300px;
-    height: 150px;
+    height: 120px;
     object-fit: cover;
 }
 
 .nompetitecarte1
 {
     text-decoration: none;
-    background-color: white;
     border-radius: 0 0 20px 20px;
-    position: relative;
-    bottom:70px;
     display: flex;
     text-align: justify;
-    padding: 20px;
+    margin-left: 20px;
 }
 
 .nompetitecarte2
 {
     text-decoration: none;
-    background-color: white;
     border-radius: 0 0 20px 20px;
-    position: relative;
-    bottom:40px;
     display: flex;
     text-align: justify;
-    padding: 20px;
+    margin-left: 20px;
 }
 
 .nompetitecarte
 {
     text-decoration: none;
-    background-color: white;
     border-radius: 0 0 20px 20px;
-    position: relative;
-    bottom:50px;
     display: flex;
     text-align: justify;
-    padding: 20px;
+    margin-left: 20px;
 }
 
 /* FOOTER */
@@ -829,41 +819,35 @@ a
         align-items: flex-start;
     }
 
+    .hotel52
+    {
+        box-shadow: 10px 10px 10px 10px rgb(207, 207, 207);
+        width: 300px;
+        height: 210px;
+        margin: 20px;
+    }
+
     .auberge25
-{
-    border: 6px solid white;
-    border-radius: 20px 20px 20px 20px;
-    background-color: white;
-    font-size: smaller;
-    width: 300px;
-    height: 200px;
-    box-shadow: 10px 10px 10px 10px rgb(207, 207, 207);
-    margin: 10px;
-    margin-left: 20px;
-    
-}
+    {
+       margin: 30px;
+       width: 300px;
+       height: 220px;
+       border: 6px solid white;
+       border-radius: 20px 20px 20px 20px;
+    }
 
-.hotel52
-{
-    box-shadow: 10px 10px 10px 10px rgb(207, 207, 207);
-    width: 300px;
-    height: 200px;
-
-}
-
-.imghebergement2
-{
-    width: 300px;
-    height: 150px;
-    object-fit: cover;
-}
-
-.imghebergement
-{
-    width: 300px;
-    height: 150px;
-    object-fit: cover;
-}
+    .imghebergement
+    {
+       object-fit: cover;
+       width: 290px;
+       height: 150px;
+    }
+    .imghebergement2
+    {
+       width: 300px;
+       height: 150px;
+       object-fit: cover;
+    }
 
     .fond2
     {
@@ -888,7 +872,8 @@ a
     .activite1
     {
         width: 300px;
-        height: 200px;
+        height: 230px;
+        margin: 30px;
     }
 
     .activite2
@@ -919,7 +904,7 @@ a
     {
         object-fit: cover;
         width: 300px;
-        height: 200px;
+        height: 170px;
     }
 
     .imagepetitecarte2
@@ -933,6 +918,19 @@ a
     {
         display: inline-block;
         flex-direction: row;
+    }
+
+    .bouton
+    {
+        display: none;
+    }
+
+    .searchicon
+    {
+        background-color: #0065FC;
+        color: white;
+        border-radius: 0 10px 10px 0;
+        border: none;
     }
 }
 
