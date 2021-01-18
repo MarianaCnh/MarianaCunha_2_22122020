@@ -193,18 +193,13 @@ header
     padding-top: 20px;
 }
 
-.responsivetete
-{
-    display: flex;
-    padding: 29px;
-    margin-top: 0px;
-    font-size: small;
-}
-
 .uldesliens
 {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
+    padding: 29px;
+    margin-top: 13px;
+    font-size: small;
 }
 
 .lien1
@@ -344,6 +339,7 @@ ul
     display:inline;
     font-size: large;
 }
+
 a
 {
     text-decoration: none;
@@ -740,51 +736,66 @@ a
         margin:0%
     }
 
-    header
-    {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .headerresponsive
+    .uldesliens
     {
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 50% 100%;
-        grid-auto-flow: column;
+        grid-template-rows: 100px 100px;
     }
 
     .logo
     {
-        padding-top: 0px;
+        width: 50%;
+        height: 10%;
         grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+
     }
 
-    .responsivetete
+    .lien3
     {
-        padding: 0px;
+        align-self: flex-end;
+        padding: 30px;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
     }
-    ul
-    {
-        padding-left: 0;
-    }
+
 
     .lien1
     {
         border-bottom: 2px solid #0065FC;
         border-top: none;
+        padding: 10px;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
     }
 
     .lien2
     {
         border-bottom: 2px solid #F2F2F2;
         text-decoration: none;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
     }
-    .lien3
+
+    .intro
     {
-        padding-top: 0px;
-        margin: 0px;
-        grid-column: 1 / 2;
+        margin-top:0px;
+        font-size: small;
+    }
+
+    .nombreresponsive
+    {
+        display: inline-block;
+        flex-direction: row;
     }
     
     .marge
@@ -794,7 +805,13 @@ a
 
     .bouton
     {
-        text: none;
+        display: none;
+    }
+
+    .searchicon
+    {
+        display: initial;
+        width: 50px;
     }
 
     .grosblock
@@ -853,6 +870,7 @@ a
     {
         border-radius: 0;
         justify-content: center;
+        margin-right: 0px;
     }
 
 
@@ -932,6 +950,7 @@ a
         border-radius: 0 10px 10px 0;
         border: none;
     }
+    
 }
 
 
