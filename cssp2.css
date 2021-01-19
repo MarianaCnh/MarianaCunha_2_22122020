@@ -182,15 +182,25 @@ template {
 header
 {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    padding: 8px;
+    margin-top: 0px;
+    font-size: small;  
 }
 
 
 .logo
 {
-    display: flex;
-    justify-content: flex-start;
-    padding-top: 20px;
+    align-self: flex-start;
+    padding-top: 15px;
+    margin-top: 0;
+}
+
+.hebergactiv
+{
+    display: inline;
+    flex-direction: row;
 }
 
 .uldesliens
@@ -198,7 +208,7 @@ header
     display: flex;
     justify-content: flex-end;
     padding: 29px;
-    margin-top: 13px;
+    margin-top: 0px;
     font-size: small;
 }
 
@@ -206,9 +216,7 @@ header
 {
     border-top: 2px solid #0065FC;
     color: #0065FC;
-    padding: 40px;
-    
-
+    padding: 35px;
 }
 
 .lien2
@@ -404,7 +412,7 @@ a
 
 .auberge25
 {
-    border: 6px solid white;
+    padding: 5px;
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     font-size: smaller;
@@ -452,7 +460,7 @@ a
 
 .hotel52
 {
-    border: 6px solid white;
+    padding: 5px;
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     font-size: smaller;
@@ -484,7 +492,7 @@ a
 
 .hotel128
 {
-    border: 6px solid white;
+    padding: 5px;
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     font-size: 11px;
@@ -566,7 +574,6 @@ a
 .activite1
 {
     background-color: white;
-    border: 1px solid #F2F2F2;
     border-radius: 20px 20px 20px 20px;
     color: black;
     width: 250px;
@@ -582,7 +589,7 @@ a
 .activite2
 {
     background-color: white;
-    border: 1px solid #F2F2F2;
+    
     border-radius: 20px 20px 20px 20px;
     color: black;
     width: 250px;
@@ -736,11 +743,24 @@ a
         margin:0%
     }
 
+    .bouton
+    {
+        display: none;
+    }
+
+    .searchicon
+    {
+        background-color: #0065FC;
+        color: white;
+        border-radius: 0 10px 10px 0;
+        border: none;
+    }
+
     .uldesliens
     {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 100px 100px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
     }
 
     .logo
@@ -748,20 +768,24 @@ a
         width: 50%;
         height: 10%;
         grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row-start: 1;
-        grid-row-end: 1;
+        
+    }
+
+    .hebergactiv
+    {
+        display: inline;
+        align-self: flex-start;
 
     }
 
     .lien3
     {
-        align-self: flex-end;
         padding: 30px;
         grid-column-start: 2;
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 1;
+        
     }
 
 
@@ -770,20 +794,13 @@ a
         border-bottom: 2px solid #0065FC;
         border-top: none;
         padding: 10px;
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row-start: 2;
-        grid-row-end: 2;
+        
     }
 
     .lien2
     {
         border-bottom: 2px solid #F2F2F2;
         text-decoration: none;
-        grid-column-start: 2;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 2;
     }
 
     .intro
@@ -889,68 +906,61 @@ a
 
     .activite1
     {
-        width: 300px;
+        width: 270px;
         height: 230px;
         margin: 30px;
     }
 
     .activite2
     {
-        width: 300px;
-        height: 200px;
+        width: 270px;
+        height: 230px;
+        margin: 20px;
     }
 
     .petitecarte1
     {
-        width: 300px;
-        height: 200px;
+        width: 270px;
+        height: 220px;
     }
 
     .petitecarte2
     {
-        width: 300px;
-        height: 200px;
+        width: 270px;
+        height: 220px;
     }
 
     .petitecarte
     {
-        width: 300px;
-        height: 200px;
+        width: 270px;
+        height: 220px;
     }
 
     .imagegrandecarte
     {
         object-fit: cover;
-        width: 300px;
+        width: 270px;
         height: 170px;
     }
 
     .imagepetitecarte2
     {
-        object-fit: cover;
-        width: 300px;
-        height: 200px;
+        width: 270px;
+        height: 170px;
     }
 
-    .filtreresponsive
+    .imagepetitecarte
     {
-        display: inline-block;
-        flex-direction: row;
+        width: 270px;
+        height: 170px;
     }
 
-    .bouton
+    .imagepetitecarte1
     {
-        display: none;
+        width: 270px;
+        height: 170px;
     }
 
-    .searchicon
-    {
-        background-color: #0065FC;
-        color: white;
-        border-radius: 0 10px 10px 0;
-        border: none;
-    }
-    
 }
 
 
