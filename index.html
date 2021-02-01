@@ -2,6 +2,7 @@
 <html lang="fr">
     <head>
         <title>Reservia - Hébergements et activités en France</title>
+        <meta name="description" content="Des nuits à partir de 23€ dans nos hôtels et auberges, avec beaucoup d'activité en ville ou en pleine nature !" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8"/>
         <meta property="og:title" content="Reservia"/>
@@ -12,11 +13,12 @@
         <meta name="twitter:site" content="@reservia" />
         <meta name="twitter:creator" content="@CnhMariana" />
         <link rel="stylesheet" href="cssp2.css"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="maquette/images/logo/Icone-logo.png">
         <script src="https://kit.fontawesome.com/0a0c30a16b.js" crossorigin="anonymous"></script>
     </head>
     <body>
              <!--Head-->
-            <div class="marge">
+    <div class="marge">
         <header>
             <div class="logo">
                 <a href="index.html"><img src="maquette/images/logo/Reservia@3x.png" alt="logo" width="97" height="45"></a>
@@ -41,16 +43,12 @@
             <p>En plein centre ville ou en pleine nature</p>
         </div>
         <!--Section recherche-->
-        <nav>
             <form class="recherche">
                 <i class="fas fa-map-marker-alt" id="map"></i>
-                <label for="Recherche"></label>
                 <input type="text" class="recherche1" name="Recherche" placeholder="Marseille,France" />
-                <label for="submit"></label>
                 <input type="submit" value="Rechercher" class="bouton"/>
                 <button type="submit" class="searchicon"><i class="fas fa-search"></i></button>
             </form>
-        </nav>
             <!--section info-->
         <div class="filtreresponsive">
             <ul>
@@ -60,7 +58,7 @@
                 <li class="lisectioninfo">
                     <button type="submit" class="background">
                         <span class="iconawesome"><i class="fas fa-money-bill-wave"></i></span>
-                            économique
+                        Économique
                     </button>
                 </li>
                 <li class="lisectioninfo">
@@ -95,13 +93,13 @@
          </div>
         </div>
         <!--section hébergement-->
-    <div class="grosblock">
+        <div class="grosblock">
         <section class="fond">
-            <div class="heberge">Hébergements à Marseille</div>
+            <h3 class="heberge">Hébergements à Marseille</h3>
             <a class="auberge25" href="#">
                     <img class="imghebergement" src="maquette/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière">
                 <div class="textegrandecarte">
-                    <h3 class="nomhotelhebergement">Auberge la Cannebière</h3>
+                    <div class="nomhotelhebergement">Auberge la Cannebière</div>
                     <p class="tailletexte">Nuit à partir de <span class="gras">25€</span></p>
                     <p class="iconegrandecarte"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span class="gris"><i class="fas fa-star"></i></span></p>
                 </div>
@@ -109,52 +107,44 @@
                 <a class="hotel52" href="#">
                     <img class="imghebergement2" src="maquette/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port">
                     <div class="textegrandecarte">
-                        <h3 class="nomhotelhebergement">Hôtel du port</h3>
+                        <div class="nomhotelhebergement">Hôtel du port</div>
                         <p class="tailletexte">Nuit à partir de <span class="gras">52€</span></p>
                         <p class="iconegrandecarte"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                     </div>
                 </a>
-                <article class="hotel52">
-                <a href="#">
+                <a class="hotel52" href="#">
                     <img class="imghebergement2" src="maquette/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes">
                     <div class="textegrandecarte">
-                    <h3 class="nomhotelhebergement">Hôtel Les mouettes</h3>
+                    <div class="nomhotelhebergement">Hôtel Les mouettes</div>
                     <p class="tailletexte">Nuit à partir de <span class="gras">76€</span></p>
                     <p class="iconegrandecarte"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span class="gris"><i class="fas fa-star"></i></span></p>
                 </div>
                 </a>
-                
-                </article> 
-                <article class="hotel52">
-                <a href="#">
+                <a class="hotel52" href="#">
                     <img class="imghebergement2" src="maquette/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
                     <div class="textegrandecarte">
-                    <h3 class="nomhotelhebergement">Hôtel de la mer</h3>
+                    <div class="nomhotelhebergement">Hôtel de la mer</div>
                     <p class="tailletexte">Nuit à partir de <span class="gras">46€</span></p>
-                    <p class="iconegrandecarte"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span class="gris"><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p></a>
+                    <p class="iconegrandecarte"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span class="gris"><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
                     </div>
-                </article>
-                <article class="hotel52">
-                <a href="#">
+                </a>
+                <a class="hotel52" href="#">
                     <img class="imghebergement2" src="maquette/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le panier">
                     <div class="textegrandecarte">
-                    <h3 class="nomhotelhebergement">Auberge Le Panier</h3>
+                    <div class="nomhotelhebergement">Auberge Le Panier</div>
                     <p class="tailletexte">Nuit à partir de <span class="gras">23€</span></p>
                     <p class="iconegrandecarte"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span class="gris"><i class="fas fa-star"></i></span>
                     </p>
-                </a>
                     </div>
-                </article>
-                <article class="hotel52">
-                <a href="#">
+                </a>
+                <a class="hotel52" href="#">
                     <img class="imghebergement2" src="maquette/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina">
                     <div class="textegrandecarte">
                     <h3 class="nomhotelhebergement">Hôtel chez Amina</h3>
                     <p class="tailletexte">Nuit à partir de <strong>96€</strong></p>
                     <p class="iconegrandecarte"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                </a>
                     </div>
-                </article>
+                </a>
                 <a href="#"><div class="afficheplus">Afficher plus</div></a>
         </section>
 
@@ -200,7 +190,7 @@
                 </a>
             </article>
         </section>
-    </div>
+     </div>
 
         <!--section activité-->
     <section class="activites">
@@ -233,8 +223,9 @@
             <p class="nompetitecarte"><span class="gras">Parc Longchamp</span></p></a>
         </article>
         </div>
-    </div>
     </section>
+    </div>
+    
         <!--Foot-->
 
         <footer class="fond3">

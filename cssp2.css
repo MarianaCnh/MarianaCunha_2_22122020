@@ -953,6 +953,8 @@ a
     .titrefond2
     {
         margin-left: 5%;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
 
     .titrepopularite
@@ -962,7 +964,7 @@ a
 
     body 
     {
-        margin:0%;
+        margin: auto;
     }
 
     .bouton
@@ -1008,7 +1010,7 @@ a
         grid-row-start: 1;
         grid-row-end: 1; 
         text-align: end;
-        padding: 25px;
+        padding: 15px;
     }
 
 
@@ -1016,7 +1018,7 @@ a
     {
         border-bottom: 2px solid #0065FC;
         border-top: none;
-        padding: 20px;
+        padding: 15px;
         text-align: center;
         grid-column-start: 1;
         grid-column-end: 1;
@@ -1029,11 +1031,16 @@ a
         border-top: none;
     }
 
+    nav a
+    {
+        padding: 0;
+    }
+
     .lien2
     {
         border-bottom: 2px solid #F2F2F2;
         text-decoration: none;
-        padding: 20px;
+        padding: 15px;
         grid-column-start: 2;
         grid-column-end: 2;
         grid-row-start: 2;
@@ -1127,6 +1134,12 @@ a
         border-radius: 0;
         justify-content: center;
         margin-right: 0px;
+        padding: 0;
+    }
+
+    .hotel128
+    {
+        margin: 15px 0 15px 0;
     }
 
     #activ
@@ -1213,6 +1226,11 @@ a
         object-fit: cover;
     }
 
+    .background
+    {
+        margin-bottom: 10px;
+    }
+
 
 }
 
@@ -1255,6 +1273,11 @@ a
         align-items: flex-start;
         padding: 3%;
         margin-left: -20%;
+    }
+
+    .background
+    {
+        margin-bottom: 10px;
     }
     
     .heberge
