@@ -817,8 +817,7 @@ a
 {
     text-decoration: none;
     display: flex;
-    padding-top: 10px;
-    margin-left: 20px;
+    margin:10px;
     border-radius: 0 0 20px 20px;
 }
 
@@ -827,7 +826,8 @@ a
     text-decoration: none;
     display: flex;
     justify-content: center;
-    margin-left: 0px;
+    margin-top:3px;
+    font-size: large;
     border-radius: 0 0 20px 20px;
 }
 
@@ -900,7 +900,7 @@ a
     border-radius: 0 0 20px 20px;
     display: flex;
     text-align: justify;
-    margin-left: 20px;
+    margin: 10px;
 }
 
 .nompetitecarte2
@@ -909,7 +909,7 @@ a
     border-radius: 0 0 20px 20px;
     display: flex;
     text-align: justify;
-    margin-left: 20px;
+    margin:10px;
 }
 
 .nompetitecarte
@@ -918,7 +918,7 @@ a
     border-radius: 0 0 20px 20px;
     display: flex;
     text-align: justify;
-    margin-left: 20px;
+    margin:10px;
 }
 
 /* FOOTER */
