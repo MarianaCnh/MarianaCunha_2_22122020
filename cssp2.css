@@ -614,6 +614,8 @@ a
 .nomhotelhebergement
 {
     margin: 0%;
+    font-size: small;
+    font-weight: bold;
 }
 
 .imghebergement
@@ -1234,7 +1236,7 @@ a
 
 }
 
-@media (min-width:768px) and (max-width:1146px)
+@media screen and (min-width:768px) and (max-width:1146px)
 {
     .marge
     {
@@ -1413,7 +1415,7 @@ a
     
 }
 
-@media (min-width:1024px) and (max-width:1279px)
+@media screen and (min-width:1024px) and (max-width:1279px)
 {
 
 }
